@@ -36,6 +36,6 @@ Project
 - To contribute in this project you could create a new branch <your-name-title>
 - Any question just pull issue.
 
-[[Email] | mehtavansh163@gmail.com ]
+Contact: [Email]( mailto:mehtavansh163@gmail.com )
 
 Thank you
