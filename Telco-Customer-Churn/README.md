@@ -56,20 +56,6 @@ The three baseline models are close on AUC, so the real difference is precision 
 
 There are customers in the dataset with identical feature profiles who churned and who didn't, so no model can get near-perfect accuracy here. The realistic ceiling is somewhere in the mid-80s% AUC. Also, because of the class imbalance (~73% no-churn), accuracy by itself isn't a meaningful headline number.
 
-## Files
-
-| File | Description |
-|---|---|
-| `main.py` | Cleaning, splitting, and baseline model training/comparison |
-| `train_model.py` | Standalone training script that saves the model and plots |
-| `evolve_model.py` | GA feature selection + PSO hyperparameter tuning |
-| `churn_model.pkl` | Saved baseline pipeline (best of the three models) |
-| `churn_model_evolved.pkl` | Saved GA/PSO-optimized pipeline |
-| `model_comparison.csv` | Baseline model metrics table |
-| `feature_importance.csv` / `.png` | Top drivers of churn |
-| `roc_curves.png` | ROC curves for all baseline models |
-| `ga_evolution_log.csv` / `ga_convergence.png` | GA fitness over generations |
-
 ## Running it
 
 ```bash
